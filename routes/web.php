@@ -13,6 +13,25 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('welcome');
+});
+
+Route::get('/', function () {
+    return view('front.index');
+});
+
+Route::get('/who-we-are', function () {
+    return view('front.about');
+});
+
+Route::get('/area-of-expertise', function () {
+    return view('front.excellences');
+});
+Route::get('/area-of-expertise/slung', function () {
+    return view('front.excellence');
+});
+
+Route::get('/contact-us', function () {
+    return view('front.contact');
 });
