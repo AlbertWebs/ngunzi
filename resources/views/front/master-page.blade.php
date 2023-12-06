@@ -36,27 +36,27 @@
                     </div>
                 </div>
                 <ul class="menu-list">
-                    <li class="menu-item-has-children active">
-                       <a href="{{url('/')}}" class="drop-down">Home</a><i class="bi bi-plus dropdown-icon"></i>
+                    <li class="menu-item-has-children @if($title == "home") active @endif">
+                        <a href="{{url('/')}}" class="drop-down">Home</a><i class="bi bi-plus dropdown-icon"></i>
+                     </li>
+                     <li class="@if($title == "about") active @endif">
+                       <a href="{{url('/who-we-are')}}">Who We Are</a>
                     </li>
-                    <li>
-                      <a href="{{url('/who-we-are')}}">Who We Are</a>
-                   </li>
-                   <li>
-                        <a href="{{url('/area-of-expertise')}}">Area of Expertise</a>
+                    <li class="@if($title == "areas") active @endif">
+                       <a href="{{url('/area-of-expertise')}}">Area of Expertise</a>
                     </li>
 
 
-                    <li class="menu-item-has-children">
-                       <a href="#" class="drop-down">Resources </a><i class="bi bi-plus dropdown-icon"></i>
-                       <ul class="sub-menu">
-                          <li><a href="#">News & Updates</a></li>
-                          <li><a href="#">Downloads <i class="bi bi-downoad"></i></a></li>
-                          <li><a href="#">Guides</a></li>
-                          <li><a href="#">Company Profile <i class="bx bxl-book"></i></a></li>
-                       </ul>
-                    </li>
-                    <li><a href="{{url('/')}}/contact-us">Contact Us</a></li>
+                     <li class="menu-item-has-children @if($title == "areas") active @endif">
+                        <a href="#" class="drop-down">Resources </a><i class="bi bi-plus dropdown-icon"></i>
+                        <ul class="sub-menu">
+                           <li><a href="#">News & Updates</a></li>
+                           <li><a href="#">Downloads <i class="bi bi-downoad"></i></a></li>
+                           <li><a href="#">Guides</a></li>
+                           <li><a href="#">Company Profile <i class="bx bxl-book"></i></a></li>
+                        </ul>
+                     </li>
+                     <li class="@if($title == "contact") active @endif"><a href="{{url('/')}}/contact-us">Contact Us</a></li>
                 </ul>
                 <div class="d-lg-none d-block">
                     <ul class="topbar-right">
@@ -112,12 +112,12 @@
                          <div class="quick-search">
                             <ul>
                                <li>Quick Search :</li>
-                               <li><a href="#">Technology,</a></li>
-                               <li><a href="#">Finance consulting,</a></li>
-                               <li><a href="#">Human Resources,</a></li>
-                               <li><a href="#">Management,</a></li>
-                               <li><a href="#">Marketing Research,</a></li>
-                               <li><a href="#">International Business.</a></li>
+                               <?php
+                                  $Service = App\Models\Service::all();
+                               ?>
+                               @foreach ($Service as $Ser)
+                                  <li><a href="#">{{$Ser->category}},</a></li>
+                               @endforeach
                             </ul>
                          </div>
                       </form>

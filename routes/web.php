@@ -13,25 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
-    return view('welcome');
-});
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/who-we-are', [App\Http\Controllers\HomeController::class, 'about'])->name('who-we-are');
+Route::get('/area-of-expertise', [App\Http\Controllers\HomeController::class, 'areas'])->name('areas-of-expertise');
+Route::get('/area-of-expertise/{slung}', [App\Http\Controllers\HomeController::class, 'area'])->name('area-of-expertise');
+Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact-us');
 
-Route::get('/', function () {
-    return view('front.index');
-});
 
-Route::get('/who-we-are', function () {
-    return view('front.about');
-});
+Auth::routes();
 
-Route::get('/area-of-expertise', function () {
-    return view('front.excellences');
-});
-Route::get('/area-of-expertise/slung', function () {
-    return view('front.excellence');
-});
-
-Route::get('/contact-us', function () {
-    return view('front.contact');
-});
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
