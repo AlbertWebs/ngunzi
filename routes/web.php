@@ -18,6 +18,15 @@ Route::get('/who-we-are', [App\Http\Controllers\HomeController::class, 'about'])
 Route::get('/area-of-expertise', [App\Http\Controllers\HomeController::class, 'areas'])->name('areas-of-expertise');
 Route::get('/area-of-expertise/{slung}', [App\Http\Controllers\HomeController::class, 'area'])->name('area-of-expertise');
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact-us');
+Route::get('/news-and-updates', [App\Http\Controllers\HomeController::class, 'news'])->name('news-and-updates');
+Route::get('/news-and-updates/{slung}', [App\Http\Controllers\HomeController::class, 'news_details'])->name('news-and-update');
+
+Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'terms'])->name('terms-and-conditions');
+Route::get('/privacy-policy', [App\Http\Controllers\HomeController::class, 'privacy'])->name('privacy-policy');
+Route::get('/copyright-statement', [App\Http\Controllers\HomeController::class, 'copyright'])->name('copyright-statement');
+Route::get('/disclaimer', [App\Http\Controllers\HomeController::class, 'disclaimer'])->name('disclaimer');
+Route::get('/cookie-policy', [App\Http\Controllers\HomeController::class, 'cookie'])->name('cookie');
+
 
 
 Auth::routes();

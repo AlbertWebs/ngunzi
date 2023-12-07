@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->string('category');
+            $table->string('bloquote');
             $table->string('slung');
             $table->string('meta');
             $table->string('content');

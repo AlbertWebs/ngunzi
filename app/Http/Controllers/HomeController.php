@@ -37,4 +37,41 @@ class HomeController extends Controller
         $Service = Service::where('slung',$slung)->get();
         return view('front.excellence', compact('Service','title'));
     }
+
+    public function terms(){
+        $title = "resources";
+        return view('front.terms', compact('title'));
+    }
+
+    public function privacy(){
+        $title = "resources";
+        return view('front.privacy', compact('title'));
+    }
+
+    public function copyright(){
+        $title = "resources";
+        return view('front.copyright', compact('title'));
+    }
+
+    public function cookie(){
+        $title = "resources";
+        return view('front.cookie', compact('title'));
+    }
+
+    public function disclaimer(){
+        $title = "resources";
+        return view('front.disclaimer', compact('title'));
+    }
+
+    public function news(){
+        $title = "news";
+        return view('front.news', compact('title'));
+    }
+
+    public function news_details(){
+        $title = "news";
+        return view('front.news_details', compact('title'));
+    }
+
+
 }

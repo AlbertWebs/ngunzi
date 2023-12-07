@@ -93,11 +93,11 @@
                          </div>
                          <div class="menu-container">
                             <ul>
-                               <li><a href="#">Privacy & Policy</a></li>
-                               <li><a href="#">Terms & Condition</a></li>
-                               <li><a href="#">Copyright</a></li>
-                               <li><a href="#">Discaimer</a></li>
-                               <li><a href="#">Cookie Policy</a></li>
+                               <li><a href="{{route('privacy-policy')}}">Privacy & Policy</a></li>
+                               <li><a href="{{route('terms-and-conditions')}}">Terms & Condition</a></li>
+                               <li><a href="{{route('copyright-statement')}}">Copyright</a></li>
+                               <li><a href="{{route('disclaimer')}}">Discaimer</a></li>
+                               <li><a href="{{route('cookie')}}">Cookie Policy</a></li>
                             </ul>
                          </div>
                       </div>
@@ -108,7 +108,7 @@
           <div class="col-lg-12">
              <div class="footer-menu-wrap">
                 <div class="footer-logo">
-                   <a href="index.html"><img src="{{asset('theme/assets/img/footer-logo.svg')}}" alt="footer-logo"></a>
+                   <a href="{{url('/')}}"><img src="{{asset('uploads/logo/logo-white.png')}}" alt="footer-logo"></a>
                 </div>
                 <ul class="footer-menu">
                    <li>

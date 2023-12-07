@@ -55,13 +55,13 @@
       </div>
       <header class="header-area style-1">
          <div class="header-logo">
-            <a href="{{url('/')}}"><img alt="image" class="img-fluid" src="{{asset('theme/assets/img/black-logo.svg')}}"></a>
+            <a href="{{url('/')}}"><img alt="image" class="img-fluid" src="{{asset('uploads/logo/logo-theme.png')}}"></a>
          </div>
          <div class="menu-wrap">
             <div class="main-menu">
                <div class="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
                   <div class="mobile-logo-wrap">
-                     <a href="{{url('/')}}"><img alt="image" src="{{asset('theme/assets/img/black-logo.svg')}}"></a>
+                     <a href="{{url('/')}}"><img alt="image" src="{{asset('uploads/logo/logo-theme.png')}}"></a>
                   </div>
                </div>
                <ul class="menu-list">
@@ -76,10 +76,10 @@
                  </li>
 
 
-                  <li class="menu-item-has-children @if($title == "areas") active @endif">
+                  <li class="menu-item-has-children @if($title == "resources") active @endif">
                      <a href="#" class="drop-down">Resources </a><i class="bi bi-plus dropdown-icon"></i>
                      <ul class="sub-menu">
-                        <li><a href="#">News & Updates</a></li>
+                        <li><a href="{{route('news-and-updates')}}">News & Updates</a></li>
                         <li><a href="#">Downloads <i class="bi bi-downoad"></i></a></li>
                         <li><a href="#">Guides</a></li>
                         <li><a href="#">Company Profile <i class="bx bxl-book"></i></a></li>
