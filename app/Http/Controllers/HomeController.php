@@ -12,8 +12,9 @@ class HomeController extends Controller
     public function index()
     {
         $title = "home";
+        $Blog = \App\Models\Blog::orderBy('id','DESC')->limit('2')->inRandomOrder()->get();
         $Service = Service::all();
-        return view('front.index', compact('Service','title'));
+        return view('front.index', compact('Service','title','Blog'));
     }
 
     public function about(){
@@ -64,13 +65,15 @@ class HomeController extends Controller
     }
 
     public function news(){
+        $Blog = \App\Models\Blog::orderBy('id','DESC')->get();
         $title = "news";
-        return view('front.news', compact('title'));
+        return view('front.news', compact('title','Blog'));
     }
 
-    public function news_details(){
+    public function news_details($slung){
+        $Blog = \App\Models\Blog::orderBy('id','DESC')->where('slung',$slung)->get();
         $title = "news";
-        return view('front.news_details', compact('title'));
+        return view('front.news_details', compact('title','Blog'));
     }
 
 
