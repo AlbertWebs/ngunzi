@@ -241,7 +241,7 @@
                  <div class="people-left-content pr--95">
                     <div class="section-title1 two">
                        <span>Our People</span>
-                       <h2>Excellent Service Provided by Our Superb Consultant.</h2>
+                       <h2>Excellent Service Provided by Our Superb Consultants.</h2>
                        <a class="primary-btn1 btn-hover" href="{{url('/')}}/who-we-are/#team">
                           Explore People
                           <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
@@ -270,7 +270,7 @@
                        <div class="people-card1">
                           <div class="people-flip-box-layer people-flip-box-front">
                              <div class="people-img">
-                                <img src="{{asset('theme/assets/img/home1/people-06.png')}}" alt>
+                                <img src="{{url('/')}}/uploads/team/1622630835448.jpeg" alt>
                              </div>
                              <div class="content">
                                 <h5><a href="#">Mr. Albert Muhatia</a></h5>
@@ -315,7 +315,7 @@
                        <div class="people-card1">
                           <div class="people-flip-box-layer people-flip-box-front">
                              <div class="people-img">
-                                <img src="{{asset('theme/assets/img/home1/people-06.png')}}" alt>
+                                <img src="{{url('/')}}/uploads/team/1622630835448.jpeg" alt>
                              </div>
                              <div class="content">
                                <h5><a href="#">Mr. Albert Muhatia</a></h5>
@@ -360,7 +360,7 @@
                        <div class="people-card1">
                           <div class="people-flip-box-layer people-flip-box-front">
                              <div class="people-img">
-                                <img src="{{asset('theme/assets/img/home1/people-06.png')}}" alt>
+                                <img src="{{url('/')}}/uploads/team/1622630835448.jpeg" alt>
                              </div>
                              <div class="content">
                                <h5><a href="#">Mr. Albert Muhatia</a></h5>
