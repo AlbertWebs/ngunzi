@@ -45,7 +45,7 @@
                                </div>
                                <div class="content">
                                   <span>To Send Mail</span>
-                                  <h6><a href="mailto:info@nguziassociates.com"><span>info@nguziassociates.com</span></a></h6>
+                                  <h6><a href="mailto:info@Ngunziassociates.com"><span>info@Ngunziassociates.com</span></a></h6>
                                </div>
                             </div>
                          </div>
@@ -78,7 +78,6 @@
                                <li><a href="#">Real Estate</a></li>
                                <li><a href="#">Construction</a></li>
                                <li><a href="#">Health Care</a></li>
-                               <li><a href="#">Finnace Service</a></li>
                                <li><a href="#">Dealerships</a></li>
                                <li><a href="#">Low Firm Service</a></li>
                                <li><a href="#">Family Business</a></li>
@@ -147,7 +146,7 @@
              </div>
              <div class="footer-btm">
                 <div class="copyright-area">
-                   <p>Copyright {{date('Y')}} <a href="#">Nguzi & Associates</a> | Powered By <a href="https://www.designekta.com/">Designekta Studios</a></p>
+                   <p>Copyright {{date('Y')}} <a href="#">Ngunzi & Associates</a> | Powered By <a href="https://www.designekta.com/">Designekta Studios</a></p>
                 </div>
                 <ul class="social-area">
                    <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>

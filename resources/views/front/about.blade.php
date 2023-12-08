@@ -3,8 +3,8 @@
 @section('content')
 
 
- <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, 0.55) 101.02%), url('{{asset('theme/assets/img/inner-pages/braadcrumb-bg2.jpg')}}');">
-    <div class="company-name">Nguzi & Associates</div>
+ <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, 0.55) 101.02%), url('{{asset('theme/assets/img/inner-pages/pexels-antony-trivet-13348192.jpg')}}');">
+    <div class="company-name">Ngunzi & Associates</div>
     <div class="container-fluid one pl--95">
     <div class="row">
         <div class="col-lg-12">
@@ -92,14 +92,14 @@
                         <p>
 
                             <h2>Empowering Financial Success through Expertise and Integrity</h2>
-                            At Nguzi & Associates, our mission is to empower individuals and businesses to achieve financial success by providing unparalleled expertise and unwavering integrity in financial and taxation services. We are committed to delivering personalized solutions that not only meet but exceed our clients' expectations, fostering long-term partnerships built on trust and transparency.
+                            At Ngunzi & Associates, our mission is to empower individuals and businesses to achieve financial success by providing unparalleled expertise and unwavering integrity in financial and taxation services. We are committed to delivering personalized solutions that not only meet but exceed our clients' expectations, fostering long-term partnerships built on trust and transparency.
                         </p>
                         <p class="moretext">
                             We strive to simplify the complexities of financial management and taxation, offering a comprehensive suite of services tailored to the unique needs of each client. Our team of seasoned professionals is dedicated to staying abreast of ever-evolving financial landscapes and tax regulations, ensuring that our clients benefit from the latest insights and strategies.
                            <br><br>
                            Integrity is at the core of everything we do. We adhere to the highest ethical standards, maintaining the utmost confidentiality and reliability in handling our clients' financial matters. By fostering a culture of continuous improvement, innovation, and client-centricity, we aim to be the go-to partner for individuals and businesses seeking reliable, efficient, and forward-thinking financial and taxation services.
                            <br><br>
-                           Through our commitment to excellence, we aspire to contribute to the financial well-being of our clients, helping them navigate the complexities of the financial world with confidence and peace of mind. At Nguzi & Associates, we believe that everyone deserves financial success, and we are dedicated to being the catalyst that propels our clients toward their goals.
+                           Through our commitment to excellence, we aspire to contribute to the financial well-being of our clients, helping them navigate the complexities of the financial world with confidence and peace of mind. At Ngunzi & Associates, we believe that everyone deserves financial success, and we are dedicated to being the catalyst that propels our clients toward their goals.
                         </p>
                         <a class="moreless-button">Read More</a>
                      </div>
@@ -305,7 +305,7 @@
                                    </svg>
                                 </div>
                                 <div class="content">
-                                  <a href="mailto:info@nguziassociates.com"><span>info@nguziassociates.com</span></a>
+                                  <a href="mailto:info@Ngunziassociates.com"><span>info@Ngunziassociates.com</span></a>
                                </div>
                              </div>
                           </div>
@@ -350,7 +350,7 @@
                                    </svg>
                                 </div>
                                 <div class="content">
-                                  <a href="mailto:info@nguziassociates.com"><span>info@nguziassociates.com</span></a>
+                                  <a href="mailto:info@Ngunziassociates.com"><span>info@Ngunziassociates.com</span></a>
                                </div>
                              </div>
                           </div>
@@ -395,7 +395,7 @@
                                    </svg>
                                 </div>
                                 <div class="content">
-                                   <a href="mailto:info@nguziassociates.com"><span>info@nguziassociates.com</span></a>
+                                   <a href="mailto:info@Ngunziassociates.com"><span>info@Ngunziassociates.com</span></a>
                                 </div>
                              </div>
                           </div>
@@ -418,7 +418,7 @@
                </div>
                <div class="col-lg-6 d-flex align-items-center justify-content-lg-center">
                   <div class="banner-btn magnetic-item">
-                     <a href="mailto:info@nguziassociates.com">
+                     <a href="mailto:info@Ngunziassociates.com">
                         <div class="bg">
                            <svg xmlns="http://www.w3.org/2000/svg" width="210" height="210" viewBox="0 0 210 210">
                               <path d="M126.624 15.7263L107.941 2.13881C106.188 0.863714 103.812 0.863712 102.059 2.1388L83.3763 15.7263C82.4229 16.4197 81.2551 16.7539 80.0792 16.6699L55.8337 14.9381C53.8159 14.794 51.91 15.88 51.0053 17.6893L40.6454 38.4093C40.1615 39.3769 39.3769 40.1615 38.4093 40.6454L17.6893 51.0053C15.88 51.91 14.794 53.8159 14.9381 55.8337L16.6699 80.0792C16.7539 81.2551 16.4197 82.4229 15.7263 83.3763L2.13881 102.059C0.863714 103.812 0.863712 106.188 2.1388 107.941L15.7263 126.624C16.4197 127.577 16.7539 128.745 16.6699 129.921L14.9381 154.166C14.794 156.184 15.88 158.09 17.6893 158.995L38.4093 169.355C39.3769 169.838 40.1615 170.623 40.6454 171.591L51.0053 192.311C51.91 194.12 53.8159 195.206 55.8337 195.062L80.0792 193.33C81.2551 193.246 82.4229 193.58 83.3763 194.274L102.059 207.861C103.812 209.136 106.188 209.136 107.941 207.861L126.624 194.274C127.577 193.58 128.745 193.246 129.921 193.33L154.166 195.062C156.184 195.206 158.09 194.12 158.995 192.311L169.355 171.591C169.838 170.623 170.623 169.838 171.591 169.355L192.311 158.995C194.12 158.09 195.206 156.184 195.062 154.166L193.33 129.921C193.246 128.745 193.58 127.577 194.274 126.624L207.861 107.941C209.136 106.188 209.136 103.812 207.861 102.059L194.274 83.3763C193.58 82.4229 193.246 81.2551 193.33 80.0792L195.062 55.8337C195.206 53.8159 194.12 51.91 192.311 51.0053L171.591 40.6454C170.623 40.1615 169.838 39.3769 169.355 38.4093L158.995 17.6893C158.09 15.88 156.184 14.794 154.166 14.9381L129.921 16.6699C128.745 16.7539 127.577 16.4197 126.624 15.7263Z" stroke-dasharray="2 2"></path>

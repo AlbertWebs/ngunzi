@@ -12,17 +12,17 @@
                    <p class="first-para">
                     <div>
                         {{--  --}}
-                        Copyright © {{date('Y')}} Nguzi & Associates. All rights reserved.<br><br>
+                        Copyright © {{date('Y')}} Ngunzi & Associates. All rights reserved.<br><br>
 
-                        The content, design, and materials on this website are protected by copyright and other intellectual property laws. Any unauthorized use, reproduction, or distribution of the content on this website without the express written permission of Nguzi & Associates is strictly prohibited.<br><br>
+                        The content, design, and materials on this website are protected by copyright and other intellectual property laws. Any unauthorized use, reproduction, or distribution of the content on this website without the express written permission of Ngunzi & Associates is strictly prohibited.<br><br>
 
-                        Nguzi & Associates and its logo are registered trademarks of Nguzi & Associates. All other trademarks, service marks, and trade names are the property of their respective owners.<br><br>
+                        Ngunzi & Associates and its logo are registered trademarks of Ngunzi & Associates. All other trademarks, service marks, and trade names are the property of their respective owners.<br><br>
 
-                        The information provided on this website is for general informational purposes only and does not constitute professional advice. Nguzi & Associates disclaims any liability for decisions made based on the information provided on this website.<br><br>
+                        The information provided on this website is for general informational purposes only and does not constitute professional advice. Ngunzi & Associates disclaims any liability for decisions made based on the information provided on this website.<br><br>
 
-                        For inquiries regarding the use of content on this website, please contact Nguzi & Associates at contact@nguziassociates.com.
+                        For inquiries regarding the use of content on this website, please contact Ngunzi & Associates at contact@Ngunziassociates.com.
 
-                        Thank you for visiting Nguzi & Associates.
+                        Thank you for visiting Ngunzi & Associates.
 
                         {{--  --}}
                     </div>

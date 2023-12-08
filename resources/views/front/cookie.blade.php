@@ -12,15 +12,15 @@
                    <p class="first-para">
                     <div>
                         {{--  --}}
-                        Welcome to Nguzi & Associates. This Cookie Policy is designed to inform you about the use of cookies on our website. By using our website, you agree to the use of cookies as described in this policy.<br><br>
+                        Welcome to Ngunzi & Associates. This Cookie Policy is designed to inform you about the use of cookies on our website. By using our website, you agree to the use of cookies as described in this policy.<br><br>
 
-                        Nguzi & Associates Cookie Policy<br><br>
+                        Ngunzi & Associates Cookie Policy<br><br>
 
                         Last Updated: 7th Dec, 2023<br><br>
 
                         <strong>1. Introduction</strong><br>
 
-                        Welcome to Nguzi & Associates. This Cookie Policy is designed to inform you about the use of cookies on our website. By using our website, you agree to the use of cookies as described in this policy.
+                        Welcome to Ngunzi & Associates. This Cookie Policy is designed to inform you about the use of cookies on our website. By using our website, you agree to the use of cookies as described in this policy.
                         <br><br>
                         <strong> 2. What are Cookies?</strong><br>
 
@@ -28,7 +28,7 @@
                         <br><br>
                         <strong>3. How We Use Cookies</strong><br>
 
-                        Nguzi & Associates uses cookies for various purposes, including:<br>
+                        Ngunzi & Associates uses cookies for various purposes, including:<br>
 
                         Authentication: To recognize you when you visit our website and authenticate your identity.<br>
                         Personalization: To customize your experience on our website based on your preferences.<br>
@@ -52,7 +52,7 @@
 
                         <br><br><strong>7. Contact Us</strong><br>
 
-                        If you have any questions or concerns about our Cookie Policy, please contact us at [contact@nguziassociates.com].
+                        If you have any questions or concerns about our Cookie Policy, please contact us at [contact@Ngunziassociates.com].
 
                         {{--  --}}
                     </div>

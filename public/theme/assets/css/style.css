@@ -6989,7 +6989,7 @@ footer .footer-widget .contact-area {
     display: flex;
     align-items: center;
     gap: 80px;
-    padding-top: 108px
+    padding-top: 50px
 }
 
 @media(max-width:1699px) {

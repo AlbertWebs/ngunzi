@@ -3,7 +3,7 @@
 @section('content')
     @foreach ($Blog as $blog)
         <div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, 0.55) 101.02%), url('{{url('/')}}/uploads/blogs/{{$blog->image}}');">
-            <div class="company-name">Nguzi & Associates</div>
+            <div class="company-name">Ngunzi & Associates</div>
             <div class="container-fluid one pl--95">
             <div class="row">
                 <div class="col-lg-12">
@@ -60,7 +60,7 @@
                         </svg>
                         </div>
                         <p>{!!html_entity_decode($blog->bloquote)!!}</p>
-                        <cite>Nguzi & Associates</cite>
+                        <cite>Ngunzi & Associates</cite>
                     </blockquote>
 
 
@@ -106,7 +106,7 @@
                                    </a>
                                    @foreach ($ServiceProcessPrev as  $Service)
                                    <div class="content">
-                                        <a href="{{url('/')}}/news-and-updates/{{$Service->slung}}">Nguzi & Associates</a>
+                                        <a href="{{url('/')}}/news-and-updates/{{$Service->slung}}">Ngunzi & Associates</a>
                                         <h6><a href="{{url('/')}}/news-and-updates/{{$Service->slung}}">{{$Service->title}}</a></h6>
                                     </div>
                                    @endforeach
@@ -119,7 +119,7 @@
                                 <div class="single-navigation two text-end">
                                 @foreach ($ServiceProcessNext as  $Service)
                                    <div class="content">
-                                        <a href="{{url('/')}}/news-and-updates/{{$Service->slung}}">Nguzi & Associates</a>
+                                        <a href="{{url('/')}}/news-and-updates/{{$Service->slung}}">Ngunzi & Associates</a>
                                         <h6><a href="{{url('/')}}/news-and-updates/{{$Service->slung}}">{{$Service->title}}</a></h6>
                                    </div>
                                 @endforeach

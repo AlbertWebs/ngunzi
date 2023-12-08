@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Financial and Tax Consultants - Ngunzi & Associates</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
       <link href="{{asset('theme/assets/css/bootstrap.min.css')}}" rel="stylesheet">
       <link href="{{asset('theme/assets/css/bootstrap-icons.css')}}" rel="stylesheet">
@@ -12,7 +12,31 @@
       <link rel="stylesheet" href="{{asset('theme/assets/css/jquery.fancybox.min.css')}}">
       <link href="{{asset('theme/assets/css/boxicons.min.css')}}" rel="stylesheet">
       <link rel="stylesheet" href="{{asset('theme/assets/css/style.css')}}">
-      <link rel="icon" href="{{asset('theme/assets/img/sm-logo.svg')}}" type="image/gif" sizes="20x20">
+      <link rel="icon" href="{{url('/')}}/uploads/logo/favicon.png" type="image/gif" sizes="20x20">
+
+      {{-- SEO --}}
+      <meta name="author" content="Designekta Studios">
+      <meta name="robots" content="index, follow">
+      <meta name="publisher" content="Designekta Studios">
+      <meta name="copyright" content="Ngunzi and Associates">
+      <meta name="page-topic" content="Finance">
+      <meta name="page-type" content="website">
+      <meta name="audience" content="Everyone">
+      <meta name="language" content="English">
+
+      <title>Financial and Tax Consultants - Ngunzi and Associates</title>
+      <meta name="title" content="Ngunzi and Associates - Financial and Tax Consultants">
+      <meta name="description" content="We are a seasoned Firm trading in the name Ngunzi and Associates. We have over 20 years in practical experience in different business environments which include, Medical, Digital Media, Legal, Logistics, Hospitality, Retail and Wholesale, businesses including Non-governmental organizations.">
+      <meta name="keywords" content="Accounting Services, Tax Services, Internal Audit, Debt Collection, Ngunzi and Associates">
+
+      <meta property="og:title" content="Financial and Tax Consultants - Ngunzi and Associates">
+      <meta property="og:site_name" content="Ngunzi and Associates">
+      <meta property="og:url" content="ngunziassociates.co.ke">
+      <meta property="og:description" content="We are a seasoned Firm trading in the name Ngunzi and Associates. We have over 20 years in practical experience in different business environments which include, Medical, Digital Media, Legal, Logistics, Hospitality, Retail and Wholesale, businesses including Non-governmental organizations.">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content=https://ngunzi.designekta.com/public/uploads/logo/og-logo.png>
+
+      {{-- SEO --}}
    </head>
    <body id="body" class="tt-smooth-scroll tt-magic-cursor">
       <div id="magic-cursor">
@@ -25,20 +49,28 @@
       </div>
       <div class="topbar-area">
          <ul class="topbar-left">
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Join Us</a></li>
-            <li><a href="#">News & Insights</a></li>
+            {{-- <li><a href="{{url('/')}}/contact-us">Careers</a></li>
+            <li><a href="#">Download Company Profile</a></li>
+            <li><a href="{{route('news-and-updates')}}">News & Insights</a></li> --}}
          </ul>
          <ul class="topbar-right">
-            <li>Sun-Tue (8:00 am-6.00 pm)</li>
             <li>
-               <a href="mailto:info@nguziassociates.com">
+                <span class="bx bx-location">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18">
+                        <path d="M11.8603 10.0575C11.249 11.2522 10.4207 12.4425 9.57367 13.5113C8.77018 14.5188 7.91105 15.484 7 16.4025C6.08893 15.484 5.2298 14.5188 4.42633 13.5113C3.57933 12.4425 2.751 11.2522 2.13967 10.0575C1.52133 8.85037 1.16667 7.71975 1.16667 6.75C1.16667 5.25816 1.78125 3.82742 2.87521 2.77252C3.96917 1.71763 5.4529 1.125 7 1.125C8.5471 1.125 10.0308 1.71763 11.1248 2.77252C12.2188 3.82742 12.8333 5.25816 12.8333 6.75C12.8333 7.71975 12.4775 8.85037 11.8603 10.0575ZM7 18C7 18 14 11.6033 14 6.75C14 4.95979 13.2625 3.2429 11.9497 1.97703C10.637 0.711159 8.85652 0 7 0C5.14348 0 3.36301 0.711159 2.05025 1.97703C0.737498 3.2429 2.76642e-08 4.95979 0 6.75C0 11.6033 7 18 7 18Z"></path>
+                        <path d="M7 9C6.38116 9 5.78767 8.76295 5.35008 8.34099C4.9125 7.91903 4.66667 7.34674 4.66667 6.75C4.66667 6.15326 4.9125 5.58097 5.35008 5.15901C5.78767 4.73705 6.38116 4.5 7 4.5C7.61884 4.5 8.21233 4.73705 8.64992 5.15901C9.0875 5.58097 9.33333 6.15326 9.33333 6.75C9.33333 7.34674 9.0875 7.91903 8.64992 8.34099C8.21233 8.76295 7.61884 9 7 9ZM7 10.125C7.92826 10.125 8.8185 9.76942 9.47487 9.13649C10.1313 8.50355 10.5 7.64511 10.5 6.75C10.5 5.85489 10.1313 4.99645 9.47487 4.36351C8.8185 3.73058 7.92826 3.375 7 3.375C6.07174 3.375 5.1815 3.73058 4.52513 4.36351C3.86875 4.99645 3.5 5.85489 3.5 6.75C3.5 7.64511 3.86875 8.50355 4.52513 9.13649C5.1815 9.76942 6.07174 10.125 7 10.125V10.125Z"></path>
+                     </svg>
+                </span>
+                &nbsp; Eagle House, Thika Super Highway
+            </li>
+            <li>
+               <a href="mailto:info@Ngunzi associates.com">
                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10">
                      <g>
                         <path d="M12.8333 0H1.16668C0.523223 0 0 0.498307 0 1.11112V8.88891C0 9.50169 0.523223 10 1.16668 10H12.8334C13.4768 10 14 9.50169 14 8.88888V1.11112C14 0.498307 13.4768 0 12.8333 0ZM1.16668 0.555547H12.8334C12.8763 0.555547 12.9142 0.570469 12.9545 0.578906C11.9445 1.4593 8.59532 4.37732 7.42328 5.38302C7.33157 5.46169 7.18375 5.55555 7.00003 5.55555C6.8163 5.55555 6.66848 5.46169 6.57647 5.38276C5.40455 4.37721 2.05518 1.45904 1.0453 0.578958C1.08571 0.570521 1.12366 0.555547 1.16668 0.555547ZM0.583324 8.88888V1.11112C0.583324 1.05669 0.600551 1.00732 0.615973 0.957578C1.38904 1.63143 3.72594 3.66747 5.24122 4.97979C3.73086 6.21539 1.39336 8.32602 0.614141 9.03367C0.600387 8.98643 0.583324 8.94023 0.583324 8.88888ZM12.8333 9.44445H1.16668C1.12008 9.44445 1.07866 9.42898 1.03515 9.41909C1.84034 8.68805 4.19273 6.56529 5.67654 5.35635C5.8461 5.50294 6.0159 5.64928 6.18595 5.79536C6.42636 6.00208 6.70775 6.11112 7 6.11112C7.29225 6.11112 7.57364 6.00206 7.81375 5.79562C7.98389 5.64945 8.1538 5.50303 8.32347 5.35635C9.80736 6.56516 12.1594 8.68776 12.9648 9.41909C12.9213 9.42898 12.88 9.44445 12.8333 9.44445ZM13.4167 8.88888C13.4167 8.94021 13.3996 8.98643 13.3859 9.03367C12.6064 8.32565 10.2691 6.21526 8.7588 4.97982C10.2741 3.6675 12.6107 1.63164 13.384 0.957526C13.3994 1.00727 13.4167 1.05667 13.4167 1.11109V8.88888Z" />
                      </g>
                   </svg>
-                  <span>info@nguziassociates.com</span>
+                  <span>info@Ngunzi associates.com</span>
                </a>
             </li>
             <li>
@@ -91,13 +123,13 @@
                   <ul class="topbar-right">
                      <li>Sun-Tue (9:00 am-7.00 pm)</li>
                      <li>
-                        <a href="mailto:info@nguziassociates.com">
+                        <a href="mailto:info@Ngunzi associates.com">
                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="10" viewBox="0 0 14 10">
                               <g>
                                  <path d="M12.8333 0H1.16668C0.523223 0 0 0.498307 0 1.11112V8.88891C0 9.50169 0.523223 10 1.16668 10H12.8334C13.4768 10 14 9.50169 14 8.88888V1.11112C14 0.498307 13.4768 0 12.8333 0ZM1.16668 0.555547H12.8334C12.8763 0.555547 12.9142 0.570469 12.9545 0.578906C11.9445 1.4593 8.59532 4.37732 7.42328 5.38302C7.33157 5.46169 7.18375 5.55555 7.00003 5.55555C6.8163 5.55555 6.66848 5.46169 6.57647 5.38276C5.40455 4.37721 2.05518 1.45904 1.0453 0.578958C1.08571 0.570521 1.12366 0.555547 1.16668 0.555547ZM0.583324 8.88888V1.11112C0.583324 1.05669 0.600551 1.00732 0.615973 0.957578C1.38904 1.63143 3.72594 3.66747 5.24122 4.97979C3.73086 6.21539 1.39336 8.32602 0.614141 9.03367C0.600387 8.98643 0.583324 8.94023 0.583324 8.88888ZM12.8333 9.44445H1.16668C1.12008 9.44445 1.07866 9.42898 1.03515 9.41909C1.84034 8.68805 4.19273 6.56529 5.67654 5.35635C5.8461 5.50294 6.0159 5.64928 6.18595 5.79536C6.42636 6.00208 6.70775 6.11112 7 6.11112C7.29225 6.11112 7.57364 6.00206 7.81375 5.79562C7.98389 5.64945 8.1538 5.50303 8.32347 5.35635C9.80736 6.56516 12.1594 8.68776 12.9648 9.41909C12.9213 9.42898 12.88 9.44445 12.8333 9.44445ZM13.4167 8.88888C13.4167 8.94021 13.3996 8.98643 13.3859 9.03367C12.6064 8.32565 10.2691 6.21526 8.7588 4.97982C10.2741 3.6675 12.6107 1.63164 13.384 0.957526C13.3994 1.00727 13.4167 1.05667 13.4167 1.11109V8.88888Z" />
                               </g>
                            </svg>
-                           <span>info@nguziassociates.com</span>
+                           <span>info@Ngunzi associates.com</span>
                         </a>
                      </li>
                      <li>

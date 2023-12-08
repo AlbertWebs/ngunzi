@@ -1,8 +1,8 @@
 @extends('front.master-page')
 
 @section('content')
-<div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, 0.55) 101.02%), url('{{asset('theme/assets/img/inner-pages/braadcrumb-bg5.jpg')}}');">
-    <div class="company-name">Nguzi & Associates</div>
+<div class="breadcrumb-section" style="background-image: linear-gradient(270deg, rgba(0, 0, 0, .55), rgba(0, 0, 0, 0.55) 101.02%), url('{{asset('theme/assets/img/inner-pages/pexels-antony-trivet-6143164.jpg')}}');">
+    <div class="company-name">Ngunzi & Associates</div>
     <div class="container-fluid one pl--95">
        <div class="row">
           <div class="col-lg-12">
@@ -52,8 +52,8 @@
                          </svg>
                       </div>
                       <div class="info">
-                         <a href="mailto:info@nguziassociates.com"><span>info@nguziassociates.com</span></a>
-                         <a href="mailto:info@nguziassociates.com"><span>info@nguziassociates.com</span></a>
+                         <a href="mailto:info@Ngunziassociates.com"><span>info@Ngunziassociates.com</span></a>
+                         <a href="mailto:info@Ngunziassociates.com"><span>info@Ngunziassociates.com</span></a>
                       </div>
                    </li>
                    <li>
