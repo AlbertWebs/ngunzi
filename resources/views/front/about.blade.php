@@ -19,7 +19,7 @@
     </div>
     </div>
 </div>
-      <div class="logo-section mb-130">
+      {{-- <div class="logo-section mb-130">
          <div class="container-fluid one">
             <div class="row">
                <div class="col-lg-12">
@@ -65,7 +65,7 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> --}}
       <div class="mission-section mb-130">
          <div class="container-fluid one pl--95">
             <div class="row g-lg-4 gy-5">
