@@ -42,7 +42,7 @@
              <div class="col-lg-5 order-lg-2 order-1">
                 <div class="banner-right-content pl--95">
                    <h5>
-                    We are a seasoned Firm trading in the name Ngunzi & Associates. We have over 20 years in practical experience in different business environments which include, Medical, Digital Media, Legal, Logistics, Hospitality, Retail and Wholesale, businesses including Non-governmental organizations.
+                    We are a seasoned Firm trading in the name Ngunzi & Associates. We have over 14 years in practical experience in different business environments which include, Medical, Digital Media, Legal, Logistics, Hospitality, Retail and Wholesale, businesses including Non-governmental organizations.
                     <br><br>
                     We have qualified team of Accountants at your disposal ready to handle any financial and tax assignments on behalf of all clients.
 
