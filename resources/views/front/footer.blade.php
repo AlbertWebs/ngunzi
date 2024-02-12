@@ -45,7 +45,7 @@
                                </div>
                                <div class="content">
                                   <span>To Send Mail</span>
-                                  <h6><a href="mailto:info@Ngunziassociates.com"><span>info@Ngunziassociates.com</span></a></h6>
+                                  <h6><a href="mailto:info@ngunziandassociates.co.ke"><span>info@ngunziandassociates.co.ke</span></a></h6>
                                </div>
                             </div>
                          </div>
