@@ -52,8 +52,8 @@
                          </svg>
                       </div>
                       <div class="info">
-                         <a href="mailto:info@Ngunziassociates.com"><span>info@Ngunziassociates.com</span></a>
-                         <a href="mailto:info@Ngunziassociates.com"><span>info@Ngunziassociates.com</span></a>
+                         <a href="mailto:info@ngunziandassociates.co.ke"><span>info@ngunziandassociates.co.ke</span></a>
+                         <a href="mailto:info@ngunziandassociates.co.ke"><span>info@ngunziandassociates.co.ke</span></a>
                       </div>
                    </li>
                    <li>
@@ -64,7 +64,7 @@
                          </svg>
                       </div>
                       <div class="info">
-                         <a>Eagle House, Thika Super Highway</a>
+                         <a>Apple Woods, Adams Arcade, Suite 808,807</a>
                       </div>
                    </li>
                 </ul>

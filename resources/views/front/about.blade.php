@@ -81,7 +81,7 @@
                            <h2>Provision of professional accounting, consultancy, and financial management services to organizations. </h2>
                         </div>
                         <p>
-                            We are a seasoned Firm trading in the name Ngunzi & Associates. We have over 20 years in practical experience in different business environments which include, Medical, Digital Media, Legal, Logistics, Hospitality, Retail and Wholesale, businesses including Non-governmental organizations.
+                            We are a seasoned Firm trading in the name Ngunzi & Associates. We have over 14 years in practical experience in different business environments which include, Medical, Digital Media, Legal, Logistics, Hospitality, Retail and Wholesale, businesses including Non-governmental organizations.
                             <br><br>
                             We have qualified team of Accountants at your disposal ready to handle any financial and tax assignments on behalf of all clients.
                         </p>

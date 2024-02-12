@@ -149,9 +149,9 @@
                    <p>Copyright {{date('Y')}} <a href="#">Ngunzi & Associates</a> | Powered By <a href="https://www.designekta.com/">Designekta Studios</a></p>
                 </div>
                 <ul class="social-area">
-                   <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                   <li><a href="https://twitter.com/"><i class="bx bxl-twitter"></i></a></li>
-                   <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                   <li><a href="https://www.facebook.com/ngunziassociates/"><i class="bx bxl-facebook"></i></a></li>
+                   <li><a href="https://twitter.com/ngunzike"><i class="bx bxl-twitter"></i></a></li>
+                   <li><a href="https://www.linkedin.com/company/ngunzi-and-associates/"><i class="bx bxl-linkedin"></i></a></li>
                    <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram-alt"></i></a></li>
                 </ul>
              </div>

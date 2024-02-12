@@ -204,7 +204,7 @@
        </div>
     </div>
  </div>
- <div class="about-section mb-130">
+ <div class="about-section mb-30">
     <div class="container-fluid one pl--95">
        <div class="row g-xl-4 gy-5">
           <div class="col-xl-6">
@@ -267,15 +267,15 @@
  <div class="feature-card-section mb-50">
     <div class="container-fluid one">
        <div class="row g-4">
-          <div class="col-lg-3 d-flex justify-content-lg-center">
+          {{-- <div class="col-lg-3 d-flex justify-content-lg-center">
              <div class="sub-title">
                 <span>Our Solutions </span>
              </div>
-          </div>
+          </div> --}}
             <div class="col-lg-12">
 
 
-                <div class="horizontal-scrolling-section pt-130 mb-30">
+                <div class="horizontal-scrolling-section pt-30 mb-30">
                     <div class="container">
                         <div class="row g-4 mb-60">
                             @foreach ($Service as $Ser)
@@ -405,7 +405,7 @@
        </div>
     </div>
  </div>
- <div class="logo-section mb-130">
+ {{-- <div class="logo-section mb-130">
     <div class="container-fluid one">
        <div class="row">
           <div class="col-lg-12">
@@ -451,7 +451,7 @@
           </div>
        </div>
     </div>
- </div>
+ </div> --}}
  <div class="industrial-section">
     <div class="container-fluid one pl--95">
        <div class="row g-lg-4 gy-5">
