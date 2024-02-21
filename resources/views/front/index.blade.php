@@ -318,7 +318,7 @@
           <div class="horizontal-scrolling-content">
              <div class="section-title1 two">
                 <span>Financial Services Provider</span>
-                <h2>Provision of professional accounting, consultancy, and financial management services to organizations. With a wide experience in we serve clients in various capacities ranging from book-keeping, financial management, Tax advisory, filing monthly and annual tax returns. </h2>
+                <h2>Provision of professional accounting, consultancy, and financial management services to organizations. With a wide experience in Finance, We serve clients in various capacities ranging from book-keeping, financial management, Tax advisory, filing monthly and annual tax returns. </h2>
              </div>
 
              <a class="primary-btn2 btn-hover" href="{{url('/')}}/contact-us">
@@ -474,7 +474,7 @@
                 <li><a href="#">Higher Education</a></li>
                 <li><a href="#">Construction</a></li>
                 <li><a href="#">Finance</a></li>
-                <li><a href="#">Low Firm</a></li>
+                <li><a href="#">Law Firm</a></li>
                 <li><a href="#">Real Estate</a></li>
                 <li><a href="#">Startup</a></li>
                 <li><a href="#">Marketing</a></li>

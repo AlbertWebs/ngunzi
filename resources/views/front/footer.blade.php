@@ -29,7 +29,7 @@
                                   </svg>
                                </div>
                                <div class="content">
-                                  <span>To More Inquiry</span>
+                                  <span>For More Inquiries</span>
                                   <h6><a href="tel:+254 722 804 713">+254722804713</a></h6>
                                </div>
                             </div>
@@ -79,7 +79,7 @@
                                <li><a href="#">Construction</a></li>
                                <li><a href="#">Health Care</a></li>
                                <li><a href="#">Dealerships</a></li>
-                               <li><a href="#">Low Firm Service</a></li>
+                               <li><a href="#">Law Firm Service</a></li>
                                <li><a href="#">Family Business</a></li>
                             </ul>
                          </div>
