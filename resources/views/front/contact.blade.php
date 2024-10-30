@@ -64,7 +64,10 @@
                          </svg>
                       </div>
                       <div class="info">
-                         <a>Apple Woods, Adams Arcade, Suite 808,807</a>
+                         <a>3rd Ngong Avenue,
+Kenya bankers Centre,
+2nd floor ,Right wing
+Nairobi,  Kenya </a>
                       </div>
                    </li>
                 </ul>

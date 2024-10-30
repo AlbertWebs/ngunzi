@@ -265,7 +265,7 @@
                  </div>
               </div>
               <div class="col-lg-7">
-                 <div class="row g-4">
+                 {{-- <div class="row g-4">
                     <div class="col-xxl-4 col-lg-6 col-md-4 col-sm-6">
                        <div class="people-card1">
                           <div class="people-flip-box-layer people-flip-box-front">
@@ -401,7 +401,7 @@
                           </div>
                        </div>
                     </div>
-                 </div>
+                 </div> --}}
               </div>
            </div>
         </div>
